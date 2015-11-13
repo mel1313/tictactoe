@@ -1,0 +1,31 @@
+body {
+  background: black;
+}
+
+.status-bar {
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.tile {
+  height: 180px;
+  width: 180px;
+  border: 10px solid white;
+  margin: 2px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
