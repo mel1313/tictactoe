@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "tictactoejson",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify app.js --outfile app.dist.js --transform babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mel1313/tictactoe.git"
+  },
+  "keywords": [
+    "tictactoejson"
+  ],
+  "author": "melvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mel1313/tictactoe/issues"
+  },
+  "homepage": "https://github.com/mel1313/tictactoe#readme",
+  "dependencies": {
+    "babel-preset-stage-0": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1"
+  }
+}
