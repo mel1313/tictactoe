@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "standard",
     "build": "browserify app.js --outfile app.dist.js --transform babelify"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "dependencies": {
     "babel-preset-stage-0": "^6.1.18",
     "babelify": "^7.2.0",
-    "browserify": "^12.0.1"
+    "browserify": "^12.0.1",
+    "standard": "^5.3.1"
   }
 }
